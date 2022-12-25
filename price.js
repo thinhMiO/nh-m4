@@ -7,7 +7,7 @@ button.forEach(function (button, index) {
             var buttonItem = event.target
             var productItem = buttonItem.parentElement
             var productImg = productItem.querySelector('img').src 
-            var productName = productItem.querySelector('h2').innerText
+            var productName = productItem.querySelector('p').innerText
             var productPrice = productItem.querySelector('#price-item').innerText
 
             addcart(productImg,productName,productPrice)
